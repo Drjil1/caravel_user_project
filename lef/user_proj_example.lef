@@ -4068,7 +4068,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.495000 ;
+    ANTENNAGATEAREA 0.426000 ;
     PORT
       LAYER met2 ;
         RECT 334.510 0.000 334.790 4.000 ;
@@ -5167,6 +5167,9 @@ MACRO user_proj_example
         RECT 4.000 51.360 2796.000 122.040 ;
         RECT 4.400 49.960 2795.600 51.360 ;
         RECT 4.000 5.615 2796.000 49.960 ;
+      LAYER met4 ;
+        RECT 1238.615 19.895 1249.440 120.865 ;
+        RECT 1251.840 19.895 1296.905 120.865 ;
   END
 END user_proj_example
 END LIBRARY
